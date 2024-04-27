@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike-About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="about" id="About">
+        <h1>Web<span>About</span></h1>
+        <div class="about_main">
+          <div class="about_image">
+              <div class="about_small_image">
+                  <img src="s1.png" onclick="functio(this)"><br>
+                   <img src="s2.png" onclick="functio(this)"><br>
+                  <img src="s3.png" onclick="functio(this)"><br>
+                  <img src="s4.png" onclick="functio(this)"><br>
+                  
+              </div>
+              <div class="image_container">
+                  <img src="s1.png" id="imagebox">
+              </div>
+          </div>
+          <div class="about_text">
+              <p>
+                  Air Jordan has been a huge part of the shoe game ever since they first came out in 1985. When Nike first saw Michael Jordan’s performance in college they immediately took action with him he got drafted into the NBA.. With all of his athletic ability not every game did he always play like the superstar he played like as we know him today. Yet his shoes still did sell pretty well for his first and second years playing in the NBA. As the years went by Michaels show performance got way better by averaging 30 points a game, and that’s when his shoes went crazy in selling. Everyday there were about several million pairs of Jordans selling each day.
+              </p>
+          </div>
+        </div>
+        <div class="moveup">
+        <a href="#" class="about_btn">Shop Now</a>
+        </div>
+        <script>
+          function functio(small){
+          var full = document.getElementById(imagebox)
+          full.src = small.src
+      }
+        </script>
+      
+      </div>
+</body>
+</html>
